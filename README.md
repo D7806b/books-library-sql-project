@@ -30,19 +30,19 @@ Quantity int,
 Total_Amount int
 );
 
--- 1) Retrieve all books in the "Fiction" genre:
+**-- 1) Retrieve all books in the "Fiction" genre:**
 select * from books
 where genre = "fiction"
 
--- 2) Find books published after the year 1950:
+**-- 2) Find books published after the year 1950:**
 select * from books
 where published_year > 1950;
 
--- 3) List all customers from the Canada:
+**-- 3) List all customers from the Canada:**
 select * from customers
 where country = "canada"
 
--- 4) Show orders placed in 2023 November:
+**-- 4) Show orders placed in 2023 November:**
 select * from orders
 where order_date between '2023-11-01' and '2023-11-30'
 
