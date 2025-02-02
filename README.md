@@ -31,6 +31,7 @@ Total_Amount int
 );
 
 **-- 1) Retrieve all books in the "Fiction" genre:**
+
 select * from books
 where genre = "fiction"
 
